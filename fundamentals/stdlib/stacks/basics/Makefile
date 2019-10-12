@@ -1,6 +1,6 @@
 GCC := g++
 
-OUTPUT := Vector
+OUTPUT := Stack
 
 SOURCES := $(wildcard *.cpp)
 CCFLAGS :=

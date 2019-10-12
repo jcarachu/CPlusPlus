@@ -1,6 +1,6 @@
 GCC := g++
 
-OUTPUT := Vector
+OUTPUT := Maps
 
 SOURCES := $(wildcard *.cpp)
 CCFLAGS :=

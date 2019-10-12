@@ -1,6 +1,6 @@
 GCC := g++
 
-OUTPUT := Vector
+OUTPUT := Complex
 
 SOURCES := $(wildcard *.cpp)
 CCFLAGS :=

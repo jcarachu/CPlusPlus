@@ -1,6 +1,6 @@
 GCC := g++
 
-OUTPUT := Vector
+OUTPUT := Queue
 
 SOURCES := $(wildcard *.cpp)
 CCFLAGS :=
