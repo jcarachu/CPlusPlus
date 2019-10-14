@@ -2,7 +2,6 @@
 // Name         : LinkedList.h
 // Description  : LinkedList in C++, Ansi-style
 //============================================================================
-
 #ifndef LIST_H_
 #define LIST_H_
 #include <assert.h>
