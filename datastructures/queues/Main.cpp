@@ -2,7 +2,7 @@
 // Name         : Main.cpp
 // Description  : Main in C++, Ansi-style
 //============================================================================
-#include "QueueLinkedTemplate.h"
+#include "QueueLinkedEx.h"
 using namespace std;
 
 int main ()

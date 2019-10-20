@@ -2,9 +2,9 @@
 // Name         : QueueLinked.h
 // Description  : Queue Linked List Implementation in C++, Ansi-style
 //============================================================================
-#ifndef QUEUELINKED_H_
-#define QUEUELINKED_H_
-#include "Queue.h"
+#ifndef QUEUE_LINKED_H_
+#define QUEUE_LINKED_H_
+#include "QueueBase.h"
 using namespace std;
 
 template<typename T>

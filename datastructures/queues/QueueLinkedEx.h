@@ -2,8 +2,8 @@
 // Name         : QueueLinked.cpp
 // Description  : Queue Linked List Implementation in C++, Ansi-style
 //============================================================================
-#ifndef QUEUELINKEDTEMPLATE_H_
-#define QUEUELINKEDTEMPLATE_H_
+#ifndef QUEUE_LINKED_EX_
+#define QUEUE_LINKED_EX_
 #include "QueueLinked.h"
 using namespace std;
 
@@ -64,7 +64,7 @@ QueueLinked<T>::~QueueLinked()
  * that deallocates the memory used to store the Queue.
  */
 template<typename T>
-Queue<T>::~Queue() {}
+QueueBase<T>::~QueueBase() {}
 
 /*
  * Inserts newDataItem
