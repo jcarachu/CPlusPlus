@@ -1,25 +1,25 @@
 //============================================================================
-// Name         : QueueLinked.h
-// Description  : Queue Linked List Implementation in C++, Ansi-style
+// Name         : StackLinked.h
+// Description  : Stack Linked List Implementation in C++, Ansi-style
 //============================================================================
-#ifndef QUEUE_LINKED_H_
-#define QUEUE_LINKED_H_
-#include "QueueBase.h"
+#ifndef STACK_LINKED_H_
+#define STACK_LINKED_H_
+#include "StackBase.h"
 using namespace std;
 
 template<typename T>
-class QueueLinked: public QueueBase<T>{
+class StackLinked: public StackBase<T>{
     public:
-        QueueLinked(int maxNumber = QueueBase<T>::MAX_QUEUE_SIZE);
-        QueueLinked(const QueueLinked &other);
-        ~QueueLinked();
-        QueueLinked &operator=(const QueueLinked &other);
+        StackLinked(int maxNumber = StackBase<T>::MAX_STACK_SIZE);
+        StackLinked(const StackLinked &other);
+        ~StackLinked();
+        StackLinked &operator=(const StackLinked &other);
         
         void clear();
         bool isEmpty() const;
         bool isFull() const;
-        void enqueue(const T &data);
-        T dequeue();
+        void push(const T &data);
+        T pop();
 
     private:
         struct Node {
